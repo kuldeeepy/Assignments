@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    font-size: 17px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.btns {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    font-size: 22px;
+}
+
+.btns button {
+    padding: 15px;
+    font-weight: 600;
+    color: rgb(242, 177, 0);
+    border: 2px solid rgb(242, 177, 0);
+    border-radius: 5px;
+}
+
+/* CONTAINER */
+
+.container {
+   padding: 5px;
+   text-align: center;
+   padding-inline: 300px;
+}
+
+.container h2 {
+    margin-block: 75px;
+    font-size: 40px;
+}
+
+/* WHY */
+
+.why {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    text-align: start;
+}
+
+.why div {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 350px;
+    box-shadow: 1px 1px 8px gray;
+}
+
+.why div p {
+    margin-top: 10px;
+}
+
+/* BLOG  */
+
+.blog {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blog h4 {
+    margin-block: 10px;
+}
+
+.blog .articles {
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    max-width: 100vw;
+    align-items: center;
+}
+
+.articles .card {
+    /* border: 2px solid red; */
+    padding: 5px;
+}
+
+.articles .card img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.articles .card p {
+    margin-top: 5px;
+}
+
+/* FORM  */
+
+.form {
+    height: 500px;
+    padding-inline: 45%;
+    padding-block: 10%;
+    background: rgb(253, 211, 53);
+}
+
+.form form {
+    background: white;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    padding-block: 10px;
+    background: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
