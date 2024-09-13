@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form action="#">
+            <label for="type">Feedback Type</label>
+            <select name="type" id="type">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select><br>
+            <label for="message">Comments:</label>
+            <textarea name="message" id="message">Type here...</textarea>
+            <br>
+            <label for="rating">Rating: </label>
+            <input type="radio">
+            <input type="radio">
+            <input type="radio">
+            <input type="radio">
+            <input type="radio">  
+            <br>
+            <label for="age">Age:</label>  
+            <input value="0" min="10" max="100" type="number">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email">
+            <br>
+            <label for="site">Website (Optional)</label>
+            <input type="url" class="optional-url" placeholder="http://google.com" />
+            <br>
+            <input id="agree" type="checkbox">
+            <label for="agree">I agree to the terms & conditions</label>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
