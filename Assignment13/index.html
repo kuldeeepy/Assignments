@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+        table {
+            border: none;
+        }
+
+        th {
+            background: green;;
+            padding: 7px;
+        }
+
+        .last {
+            background: rgba(229, 229, 229, 0.861);
+        }
+    </style>
 </head>
 <body>
     <table border="1">
@@ -13,27 +27,27 @@
                 <th>Quantity</th>
                 <th>Price per Unit</th>
                 <th>Description</th>
-                <th colspan="2">Total Price</th>
+                <th>Total Price</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Product 1</td>
                 <td>2</td>
-                <td>10</td>
-                <td>This is product 1</td>
-                <td colspan="2">20</td>
+                <td>$10</td>
+                <td>This is Product 1</td>
+                <td>$20</td>
             </tr>
             <tr>
                 <td>Product 2</td>
                 <td>3</td>
-                <td>20</td>
-                <td>This is product 2</td>
-                <td colspan="2">60</td>
+                <td>$20</td>
+                <td>This is Product 2</td>
+                <td>$60</td>
             </tr>
-            <tr>
+            <tr class="last">
                 <td colspan="4">Sum</td>
-                <td>80</td>
+                <td>$80</td>
             </tr>
         </tbody>
     </table>
