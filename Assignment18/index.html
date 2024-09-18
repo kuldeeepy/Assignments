@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+</head>
+<style>
+
+    body, html {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        margin: auto;
+    }
+    div {
+        width: 100px;
+        height: 100px;
+        margin: 4px;
+        border: 2px solid black;
+    }
+
+    div:nth-child(3):hover {
+        width: 200px;
+        height: 200px;
+        background: orangered;
+    }
+</style>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
