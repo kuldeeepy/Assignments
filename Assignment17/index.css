@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+/* Section One  */
+
+section {
+    display: flex;
+    justify-content: center;
+    /* gap: 50px; */
+    align-items: center;
+    max-width: 1200px; /* Set your desired width */
+    width: 100%;
+    margin: 0 20px; 
+}
+
+/* section div > div {
+    border: 2px solid black;
+}
+
+section div > div > div{
+    display: flex;
+} */
