@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+</head>
+<style>
+    .html, body {
+        color: white;
+        text-align: center;
+        background: black;
+    }
+
+    .container {
+        display:  flex;
+        justify-content: space-around;
+    }
+
+    .container div {
+        height: 200px;
+        width: 200px;
+        background: red;
+    }
+
+    .container div:nth-child(1) {
+        background: yellowgreen;
+    }
+
+    .container div:nth-child(2) {
+        background: purple;
+    }
+    .container div:nth-child(3) {
+        background: red;
+    }
+    .container div:last-child{
+        background: green;
+    }
+</style>
+<body>
+    <h2>CARDS</h2>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
