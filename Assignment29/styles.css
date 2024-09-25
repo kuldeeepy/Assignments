@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section:first-child {
+    text-align: center;
+    margin: auto;
+}
+
+section:first-child .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+}
+
+section:first-child .cards .card {
+    border: 1px solid black;
+}
+
+section:first-child .cards .card img {
+    max-width: 315px;
+}
