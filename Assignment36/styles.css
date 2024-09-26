@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.container {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.container .box {
+    display: grid;
+    justify-content: center;
+    padding: 15px;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+.container .box div:first-child {
+    background-color: rgba(0, 174, 255, 0.86);
+    width: 25%;
+    border: 2px dotted black;
+}
+
+.container .box div, h2, p, a {
+    border: 2px dotted black;
+}
