@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4bb1d3;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 25px;
+    color: #4bb1d3;
+    max-width: 90%;
+    background: rgba(0, 0, 0, 0.918);
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.key, .enter, .shift2, .space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(245, 245, 245, 0.083);
+    font-size: 15px;
+    padding: 12px 18px;
+    border-radius: 7px;
+}
+
+
+.enter, .shift2, .space {
+    grid-column: span 2;
+}
+
+.space {
+    grid-column: span 4;
+}
