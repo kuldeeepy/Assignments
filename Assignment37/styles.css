@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading h1 {
+    font-size: 30px;
+}
+
+.heading p {
+    font-size: 15px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15px;
+    margin-bottom: 45px;
+}
+
+.cards {
+    display: flex;   
+    gap: 27px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1320px;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 388.31px;
+    max-width: 300px;
+    padding: 10px;
+    text-align: start;
+    border: 1px solid black;
+    border-radius: 12px;
+    border: 1px solid #E7E6E6;
+}
+
+.cards .card img {
+    max-width: 278px;
+    max-height: 198.56px;
+    border-radius: 12px;
+}
+
+.cards .card img + p {
+    font-size: 12.3px;
+    font-weight: 400;
+    color: #717171;
+    padding-left: 20px;
+}
+
+.cards .card h2 + p {
+    text-align: center;
+    color: #05073C;
+    font-size: 12.5px;
+    font-weight: 400;
+}
+
+.cards .card h2 {
+    color: #05073C;
+    font-weight: 500;
+    font-size: 15.88px;
+    padding-inline: 10px;
+}
+
+.cards .card hr {
+    background-color: red;
+    opacity: .2;
+}
+
+.cards .card .pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #05073C;
+}
+
+.cards .card .pricing p {
+    font-size: 12.59px;
+}
+
+.cards .card .pricing p:last-child {
+    font-size: 14.59px;
+}
+
+
+
