@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        .info {
+            display: none;
+            margin-top: 20px; 
+            padding: 10px;
+            border: 1px solid #ccc; 
+            background-color: #f9f9f9; 
+            border-radius: 5px; 
+        }
+
+        button:active + .info {
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+    <button>Read Info</button>
+    <div class="info">
+        This is the information: Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, distinctio.
+    </div>
+</body>
+</html>
