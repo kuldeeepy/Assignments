@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+footer {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns for options */
+    gap: 20px; /* Spacing between the columns */
+}
+
+.logo {
+    grid-column: 1; /* Logo in first column */
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns for the lists */
+}
+
+.option-list {
+    margin-right: 20px;
+}
+
+.option-list h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.option-list ul {
+    list-style: none; /* Remove bullet points */
+}
+
+.option-list li {
+    margin-bottom: 8px; /* Space between list items */
+}
+
+.links {
+    grid-column: span 3; /* Full width for links section */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.origin p,
+.ops ul {
+    margin: 0; /* Remove default margins */
+}
+
+.ops ul {
+    display: flex; /* Display links in a row */
+    list-style: none; /* Remove bullet points */
+}
+
+.ops li {
+    margin-left: 15px; /* Space between items */
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr; /* Stack all content on small screens */
+    }
+    
+    .options {
+        grid-template-columns: 1fr; /* Stack option lists */
+    }
+    
+    .links {
+        flex-direction: column; /* Stack links vertically */
+        align-items: flex-start; /* Align to the left */
+    }
+
+    .ops ul {
+        flex-direction: column; /* Stack ops links vertically */
+        margin-top: 10px; /* Space above */
+    }
+
+    .ops li {
+        margin-left: 0; /* Remove left margin */
+        margin-bottom: 5px; /* Space between items */
+    }
+}
+
+
+/* .links {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    border: 2px solid black;
+    padding: 30px 25px;
+}
+
+.links .origin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links .ops ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} */
